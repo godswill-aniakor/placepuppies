@@ -1,0 +1,20 @@
+{
+    "production": {
+        "port": 3000,
+        "max_width": 1600,
+        "max_height": 1200,
+        "image_path": "${production image directory here}"
+    },
+    "development": {
+        "port": 3000,
+        "max_width": 1600,
+        "max_height": 1200,
+        "image_path": "./photos"
+    },
+    "test": {
+        "port": 3000,
+        "max_width": 1600,
+        "max_height": 1200,
+        "image_path": "./photos"
+    }
+}

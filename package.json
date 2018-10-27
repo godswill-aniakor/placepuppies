@@ -1,0 +1,30 @@
+{
+  "name": "placeholder",
+  "version": "1.0.0",
+  "description": "An image placeholder web application",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --timeout 10000",
+    "start": "NODE_ENV=development node app.js"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Godswill Aniakor <godswill.aniakor@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.7.3",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "is-image": "^2.0.0",
+    "rimraf": "^2.6.2",
+    "sharp": "^0.21.0"
+  },
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
