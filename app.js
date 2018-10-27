@@ -2,7 +2,7 @@ const express = require('express');
 const errorhandler = require('errorhandler');
 const config = require('./config');
 const compress = require('compression');
-const controller = require('./controller');
+const routes = require('./routes');
 
 // create application object
 const app = express();
@@ -14,7 +14,7 @@ if (!config.is_production) {
 // user compression
 app.use(compress());
 
-app.use(controller);
+app.use(routes);
 
 // 404 handler
 app.use(function (req, res, next) {
