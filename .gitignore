@@ -1,0 +1,10 @@
+# Dependency directories
+node_modules/
+
+### VisualStudioCode ###
+.vscode/
+.history
+
+## IDE
+.idea/
+
