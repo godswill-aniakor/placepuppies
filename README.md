@@ -5,7 +5,7 @@ The application purpose is useful for especially developers who just want to kee
 
 ## Requirements
 
-To setup Vas2Nets you will need
+To setup PlacePuppies you will need
 - [Node > v8.9.1 (recommended latest)](https://nodejs.org/)
 - [npm (recommended latest)](https://www.npmjs.com/)
 - [Git](https://git-scm.com/)
