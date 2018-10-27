@@ -32,7 +32,7 @@ $ cd /var/www/
 $ git clone https://github.com/godswill-aniakor/placepuppies.git
 ~~~~
 
-Install Vas2Nets package dependencies
+Install PlacePuppies package dependencies
 
 ~~~~
 $ npm install
@@ -51,7 +51,7 @@ $ npm run start
 
 Server should start and a message should be displayed to the console:
 ~~~~
-$ Placeholder listening on port 3000
+$ Placepuppies REST server listening at http://localhost:3000/placepuppies
 ~~~~
 
 ## Test PlacePuppies
