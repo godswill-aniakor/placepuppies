@@ -34,7 +34,7 @@ app.use(function (err, req, res, next) {
 
 // start application
 const server = app.listen(process.env.PORT || config.port, () => {
-    console.log(`Placepuppies REST server listening at http://localhost:${server.address().port}/placepuppies`)
+    console.log(`Placepuppies REST server listening at http://localhost:${server.address().port}`)
 });
 
 // for testing
