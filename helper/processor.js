@@ -1,7 +1,6 @@
 const fs = require('fs');
 const sharp = require('sharp');
 const config = require('./../config');
-console.log(config);
 
 const cacheDir = `${config.image_path}/cache`;
 

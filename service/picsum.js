@@ -30,7 +30,7 @@ const send = (req, res, data) => {
     res.send(data);
 }
 
-// TODO: migrate image datasource to database storage
+
 const Picsum = function() {
     // simulating database image storage with primitive array
     const imageStore = []; 
