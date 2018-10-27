@@ -29,7 +29,7 @@ Clone PlacePuppies repository.
 
 ~~~~
 $ cd /var/www/
-$ git clone https://github.com/JumiaMDS/vas2nets.git
+$ git clone https://github.com/godswill-aniakor/placepuppies.git
 ~~~~
 
 Install Vas2Nets package dependencies
